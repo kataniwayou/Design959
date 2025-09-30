@@ -1,11 +1,14 @@
 {
-  "mcpServers": {
-    "schema-manager": {
-      "command": "C:\\Users\\UserL\\source\\repos\\Design959\\MCPs\\MCP.Schema\\bin\\Debug\\net9.0\\MCP.Schema.exe",
-      "env": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    }
-  }
-}
+    "mcpServers":  {
+                       "schema-manager":  {
+                                              "args":  [
 
+                                                       ],
+                                              "env":  {
+                                                          "ASPNETCORE_ENVIRONMENT":  "Development"
+                                                      },
+                                              "command":  "C:\\Users\\UserL\\source\\repos\\Design959\\MCPs\\MCP.Schema\\bin\\Debug\\net9.0\\MCP.Schema.exe",
+                                              "cwd":  "C:\\Users\\UserL\\source\\repos\\Design959\\MCPs\\MCP.Schema\\bin\\Debug\\net9.0"
+                                          }
+                   }
+}
